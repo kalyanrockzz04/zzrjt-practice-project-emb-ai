@@ -2,7 +2,7 @@
 
 ## Project Description
 
-This project is an Emotion Detection application built using the IBM Watson NLP library and Flask.
+This project is an Emotion Detection application built using IBM Watson NLP and Flask.
 
 The application analyzes text and identifies five emotions:
 
@@ -12,17 +12,23 @@ The application analyzes text and identifies five emotions:
 - Joy
 - Sadness
 
-It also determines the dominant emotion for the given text.
+It also identifies the dominant emotion in the provided text.
 
 ## Technologies Used
 
 - Python
 - IBM Watson NLP
 - Flask
-- JavaScript
 - HTML
-- Bootstrap
+- CSS
+- JavaScript
 
-## Application
+## Features
 
-The application provides a web interface where users can enter text and receive the detected emotion scores and dominant emotion.
+- Emotion detection using IBM Watson NLP
+- Detection of anger, disgust, fear, joy, and sadness
+- Dominant emotion identification
+- Flask web application
+- Blank input error handling
+- Unit testing
+- Static code analysis using Pylint
